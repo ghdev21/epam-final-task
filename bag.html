@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0">
+    <title>Bag</title>
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+<header class="main-header container">
+    <div class="header-top">
+        <h1><a href="index.html">Template</a></h1>
+        <h1 class="logo-375"><a href="index.html">TL</a></h1>
+        <div class="profile-basket">
+            <a href="#" title="Email">E-mail sign up</a>
+            <a href="bag.html" class="bag"><img src="images/ico-bag.png" alt="bag" >Bag <span id="bag-count"></span>(<span id="item-number"></span>)</a>
+            <button id="pop-up" class="menu-pop-up">
+                <img class="pop-up" src="images/pop-up.png" alt="Menu pop-up">
+                <img class="close" src="images/close.png" alt="Close menu">
+            </button>
+        </div>
+    </div>
+    <div class="header-bottom" id="header-bottom">
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#" title="Women section">Women</a></li>
+                <li><a href="#" title="Men section">Men</a></li>
+                <li><a href="#" title="Handbags section">Handbags</a></li>
+                <li><a href="#" title="Accessories section">Accessories</a></li>
+                <li><a href="#" title="Sale section">Sale</a></li>
+                <li><a href="#" title="New Arrivals section">New Arrivals</a></li>
+                <li><a href="#" title="Clearance section">Clearance</a></li>
+                <li><a href="#" title="Store Locator section">Store Locator</a></li>
+            </ul>
+
+        </nav>
+        <div class="search-form">
+            <form action="">
+                <input type="text" placeholder="Style Name" id="search-field">
+                <input type="submit" value="" title="Search" id="search">
+            </form>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="separate-line"></div>
+    <h2 class="bag-head">Shopping bag</h2>
+    <div class="separate-line"></div>
+    <section class="bag-content container">
+        <h3 id="is-empty">Your shopping bag is empty. Use <a href="catalog.html">Catalog</a> to add new items</h3>
+        <article class="bag-items-container" id="bag-container">
+
+        </article>
+        <div class="delivery">
+            <p>You've qualified for Free UK Next Day Delivery on your order. Don't forget to enter the code <span>nexday</span> at checkout</p>
+        </div>
+        <article class="control">
+            <button id="clear">Empty bag</button>
+            <button id="buy">Checkout</button>
+            <div class="cost">
+                <div class="discont">
+                    <span>Applied discount:</span>
+                    <span>£0</span>
+                </div>
+                <div class="total">
+                    <span>Total price:</span>
+                    <span id="bag-sum"></span>
+                </div>
+            </div>
+            <!--<dl>-->
+                <!--<dt>Total cost</dt>-->
+                <!--<dd>£<span id="bag-sum"></span></dd>-->
+            <!--</dl>-->
+        </article>
+    </section>
+</main>
+
+
+<footer>
+    <div class="separate-line"></div>
+    <div class="separate-line"></div>
+    <article>
+        <div class="footer-item">
+            <h2>Quick Links</h2>
+            <nav>
+                <ul>
+                    <li><a href="#" title="Store locator section">Store locator</a></li>
+                    <li><a href="#" title="Gift card section">Gift cards</a></li>
+                    <li><a href="#" title="Size guide section">Size guide</a></li>
+                    <li><a href="#" title="About us section">About us</a></li>
+                    <li><a href="#" title="Support section">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-item">
+            <h2>Customer Care</h2>
+            <nav>
+                <ul>
+                    <li><a href="" title="SCustomer service section">Customer service</a></li>
+                    <li><a href="" title="Track my order section">Track my order</a></li>
+                    <li><a href="" title="Return policy section">Return policy</a></li>
+                    <li><a href="" title="Shipping & delivery section">Shipping & delivery</a></li>
+                    <li><a href="" title="Contact us section">Contact us</a></li>
+                    <li><a href="" title="Careers section">Careers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </article>
+
+    <article>
+        <div class="footer-info">
+            <div class="info-item">
+                <dl>
+                    <dt>Questions</dt>
+                    <dd><img src="images/twi-ico.png" alt="Twitter ico">Tweet us <span>@template</span></dd>
+                </dl>
+            </div>
+            <div class="info-item">
+                <dl>
+                    <dt>Order by phone</dt>
+                    <dd>8-800-409-47-12</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="info-description">
+            <p>We have our own delivery service which <br> operates in 23 major European cities.
+                Delivery <br> time - 3-5 days.</p>
+            <div class="info-links">
+                <a href="#" title="Twitter link"><img src="images/twi.png" alt="Twitter link"></a>
+                <a href="#" title="Facebook link"><img src="images/fb.png" alt="Facebook link"></a>
+            </div>
+        </div>
+    </article>
+    <div class="separate-line"></div>
+    <article class="footer-bottom">
+        <p>© 2010–2015, The Template Group inc.</p>
+        <div class="share">
+            Share <span>1 437</span>
+        </div>
+        <div class="documents">
+            <a href="#" title="Legal notice">Legal notice</a>
+            <a href="#" title="Privacy policy">Privacy policy</a>
+            <a href="#" title="Site map">Site map</a>
+        </div>
+    </article>
+</footer>
+
+
+<script src="dist/bag.js"></script>
+<script src="dist/menu.js"></script>
+</body>
+</html>
